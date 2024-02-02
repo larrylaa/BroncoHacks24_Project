@@ -13,7 +13,7 @@
         <div className="hamburger" onClick={handleClick}>
             {click ? (
             <div className="hamburger-open">
-                <FaTimes size={30} style={{ color: "white" }} />
+                <FaTimes size={30} style={{ color: "black" }} />
                 <Link className="link" to="/" onClick={closeMenu}>
                 Home
                 </Link>
@@ -23,7 +23,7 @@
                 
             </div>
             ) : (
-            <FaBars size={30} style={{ color: "white" }} />
+            <FaBars size={30} style={{ color: "black" }} />
             )}
         </div>
         </div>
