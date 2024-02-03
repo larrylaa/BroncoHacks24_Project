@@ -17,8 +17,7 @@ const BathroomCard = (props) => {
       </div>
       
       <div className="counter-container">
-        <Counter temp="vote" />
-        {/* <h2>temp</h2> */}
+        <Counter />
       </div>
 
     </div>

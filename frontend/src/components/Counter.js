@@ -4,7 +4,8 @@ import "../styles/Counter.css"; // Import your CSS file for styling
 import UpArrowImage from "../icons/Red Arrow Up.png";
 import DownArrowImage from "../icons/Red Arrow Down.png";
 
-const Counter = (props) => {
+
+const Counter = () => {
   const [counter, setCounter] = useState(0);
 
   const handleIncrement = () => {

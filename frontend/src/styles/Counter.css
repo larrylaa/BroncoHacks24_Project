@@ -9,11 +9,10 @@
 .arrow-buttons {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    /* width: 50%; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    background-color: antiquewhite;
+    height: 60%;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow-buttons img {
@@ -23,12 +22,12 @@
   overflow: hidden;
   cursor: pointer;
   margin: 10px 0px;
-  right: 0;
+fill-opacity: 0.4;
 }
 
 .number-votes {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 50%;
     height: 100%;
