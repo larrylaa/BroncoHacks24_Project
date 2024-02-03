@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import BathroomMap from "../images/cppmap.jpg";
 import BillyBronco from "../images/superhero-billy1.png";
 import CPPLogo from "../images/Cal_Poly_Pomona_Broncos_logo.png";
+import RateMyRestroomImage from "../images/RatemyRestroom.png";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
     // </div>
 
     <div className="home">
-      <div className="home-title">Rate My Restroom</div>
+      <img className="home-title" src={RateMyRestroomImage} alt="Rate My Restroom" />
       <img className="map" src={BathroomMap} />
       <div className="bottom-container">
         <img className="cpp-logo" src={CPPLogo} alt="cpp logo"/>
