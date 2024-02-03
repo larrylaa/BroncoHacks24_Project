@@ -2,6 +2,7 @@ BroncoHacks Project: Restroom Rater - A web application where Cal Poly Pomona st
 Tech Stack: React Frontend, Django Backend w/ SQL_Lite3 DB
 
 # RateMyRestroom
+![Untitled_drawing](https://github.com/larrylaa/BroncoHacks24_Project/assets/137100338/05fa1638-49f8-4db1-8fcd-fc0a8731f008)
 
 Welcome to RateMyRestroom! This repository contains both the frontend and backend code for our application.
 
