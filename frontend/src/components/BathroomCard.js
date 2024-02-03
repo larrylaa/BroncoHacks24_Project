@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/BathroomCard.css";
 
-import TempCard from "../images/lib 2nd floor.jpg";
 import Counter from "./Counter";
 
 const BathroomCard = (props) => {
@@ -9,7 +8,7 @@ const BathroomCard = (props) => {
     <div className="card">
 
       <div className="image-container">
-        <img src={TempCard} alt="temp img" />
+        <img src={props.source} alt="temp img" />
       </div>
 
       <div className="title">
