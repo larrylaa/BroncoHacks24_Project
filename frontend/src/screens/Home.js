@@ -21,18 +21,8 @@ const Home = () => {
       <div className="bottom-container">
         <img className="cpp-logo" src={CPPLogo}/>
         <div className="paragraph">
-          This website serves as a valuable tool for the Cal Poly Pomona
-          community, aiding in the identification and assessment of restroom
-          facilities across the campus. By leveraging data analytics, it
-          meticulously tracks and analyzes restroom usage patterns, providing
-          insights into which facilities experience the highest foot traffic and
-          which maintain optimal cleanliness standards. Through its
-          comprehensive reporting system, users can easily identify trends, make
-          informed decisions regarding restroom utilization, and contribute to
-          the overall campus maintenance efforts. Additionally, this platform
-          fosters a culture of accountability and stewardship, encouraging
-          individuals to uphold restroom hygiene standards and ensuring that
-          facilities remain comfortable and sanitary for all campus occupants.
+          This website was made for the students of Cal Poly Pomona to rate their restroom experiences by being able to upvote or downvote
+          a restroom if they enjoyed their time at the respective restroom.
         </div>
         <img className="billy-bronco" src={BillyBronco}/>
       </div>
