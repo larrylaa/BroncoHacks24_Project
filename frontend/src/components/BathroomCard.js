@@ -17,7 +17,7 @@ const BathroomCard = (props) => {
       </div>
       
       <div className="counter-container">
-        <Counter />
+        <Counter count={props.numUpvotes}/>
       </div>
 
     </div>

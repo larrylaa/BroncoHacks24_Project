@@ -5,8 +5,8 @@ import UpArrowImage from "../icons/Red Arrow Up.png";
 import DownArrowImage from "../icons/Red Arrow Down.png";
 
 
-const Counter = () => {
-  const [counter, setCounter] = useState(0);
+const Counter = (props) => {
+  const [counter, setCounter] = useState(props.count);
 
   const handleIncrement = () => {
     setCounter(counter + 1);
