@@ -6,6 +6,5 @@ class RestroomSerializer(serializers.ModelSerializer):
         model = Restroom
         fields = ('location','upvotes')
 
-
     location = models.CharField(unique=True, max_length=100)
     upvotes = models.IntegerField(default=0)
