@@ -6,7 +6,3 @@ router = DefaultRouter()
 router.register('restroom', RestroomViewset, basename='restroom')
 urlpatterns = router.urls
 
-# urlpatterns = [
-#     path('', home)
-# ]
-
