@@ -19,12 +19,12 @@ const Home = () => {
       <div className="home-title">Rate My Restroom</div>
       <img className="map" src={BathroomMap} />
       <div className="bottom-container">
-        <img className="cpp-logo" src={CPPLogo}/>
+        <img className="cpp-logo" src={CPPLogo} alt="cpp logo"/>
         <div className="paragraph">
           This website was made for the students of Cal Poly Pomona to rate their restroom experiences by being able to upvote or downvote
           a restroom if they enjoyed their time at the respective restroom.
         </div>
-        <img className="billy-bronco" src={BillyBronco}/>
+        <img className="billy-bronco" src={BillyBronco} alt="billy bronco"/>
       </div>
     </div>
   );
