@@ -1,0 +1,23 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    background-color: antiquewhite;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}

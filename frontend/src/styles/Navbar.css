@@ -1,4 +1,22 @@
+.navbar {
+    height: 2rem;
+    /* position: fixed; */
+    transition: 0.5s;
+}
+
+.hamburger {
+    position: relative;
+    z-index: 999;
+    margin: 1rem;
+    transition: 0.5s;
+}
+
 .hamburger-open {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: 20%;
+    background-color: antiquewhite;
+    transition: 0.5s;
+    
 }

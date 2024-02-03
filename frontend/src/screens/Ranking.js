@@ -25,7 +25,7 @@ const Ranking = () => {
 
   return (
     <div>
-      <h1>RANKING</h1>
+      <h1 className='ranking-header'>Rankings</h1>
       <ul>
         {bathrooms.map((bathroom) => <BathroomCard title={bathroom.location} numUpvotes={bathroom.upvotes} source={bathroom.image}/>)}
       </ul>
