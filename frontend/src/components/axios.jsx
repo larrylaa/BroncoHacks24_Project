@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function RestroomComponent() {
-  const [restroomData, setRestroomData] = useState(null);
+  const [restroomData, setRestroomData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -10,12 +11,8 @@ function RestroomComponent() {
 
   const fetchRestroomData = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:8000/restroom/');
-      if (!response.ok) {
-        throw new Error('Failed to fetch data');
-      }
-      const data = await response.json();
-      setRestroomData(data);
+      const response = await axios.get('http://127.0.0.1:8000/restroom/');
+      setRestroomData(response.data);
       setIsLoading(false);
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -29,7 +26,7 @@ function RestroomComponent() {
 
   return (
     <div>
-      {restroomData ? (
+      {restroomData.length > 0 ? (
         <div>
           <h2>Restroom Data</h2>
           <ul>
